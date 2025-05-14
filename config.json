@@ -1,8 +1,12 @@
 {
   "default_profit_threshold": 0.8,
+  "trc20_fee": 1.0,
   "vip_levels": {
     "Basic": ["P2P"],
     "Pro": ["P2P", "Spot"],
-    "Expert": ["All"]
-  }
+    "Expert": ["P2P", "Spot", "Memecoins", "Alerts", "PDF"]
+  },
+  "tokens_to_track": ["BTC", "ETH", "DOGE"],
+  "memecoins_to_track": ["SHIB", "PEPE", "FLOKI"],
+  "alert_interval_minutes": 10
 }
