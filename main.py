@@ -6,6 +6,7 @@ from scanner import compare_all_exchanges
 from spot_arb import compare_tokens
 from memecoins import compare_memecoins
 from alerts import start_alert_thread
+bot.polling(none_stop=True)
 
 API_TOKEN = '8065004819:AAFLL7_Hmso6nysO0hqS4ga9EnWPuPLWewg'
 bot = telebot.TeleBot(API_TOKEN)
