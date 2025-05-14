@@ -1,0 +1,8 @@
+{
+  "default_profit_threshold": 0.8,
+  "vip_levels": {
+    "Basic": ["P2P"],
+    "Pro": ["P2P", "Spot"],
+    "Expert": ["All"]
+  }
+}
